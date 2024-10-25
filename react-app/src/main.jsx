@@ -4,9 +4,10 @@ import './index.css';
 import App from './App.jsx';
 
 const rootElement = document.getElementById('root');
-const reactRoot = createRoot(rootElement);
-reactRoot.render(
-  <React.StrictMode>
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
